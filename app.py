@@ -84,7 +84,7 @@ def page_1():
 
 
 # Page 2: Demo Machine Learning
-model = joblib.load("D:/codepython/car_price_model_best.pkl")
+model = joblib.load("car_price_model_best.pkl")
 def demo_page():
     st.title("Car Price Prediction Demo")
     st.write("กรุณากรอกข้อมูลของรถเพื่อลองทำนายราคาของรถ")
